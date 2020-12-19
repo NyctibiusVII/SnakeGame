@@ -5,13 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="shortcut icon" href="./assets/favicon-snake.svg" type="image/x-icon">
+
     <link rel="stylesheet" href="./styles/index.css">
-    <title>SnakeGame</title>
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
+
     <script defer src="./scripts/index.js"></script>
+
+    <title>SnakeGame</title>
 </head>
 <body>
-    <h1>SnakeGame</h1>
-    <canvas id="snake" height="512" width="512"></canvas>
-    <footer>© Created by Matheus Vidigal - (NyctibiusVII)</footer>
+    <!--Titulo-->
+    <h1 class="mt-3 titleGame">SnakeGame</h1>
+
+    <!--canvas-->
+    <div class="container text-center">
+        <canvas class="canvasSnake" id="snake" height="512" width="512"></canvas>
+    </div>
+
+    <!--Mobile com menos de width"540" -->
+    <div class="mt-4 pt-5 pb-3 container text-center respMobile">
+        <h4 class="mb-3">OpS! ＞﹏＜</h4>
+        <p class="description">
+            Parece que seu aparelho eletrônico não suporta o tamanho de tela necessário para 'rodar' o canvas.
+        </p>
+        <p class="description">
+            Te peço mil desculpas mas no momento sou iniciante e ta muito difícil pra mim colocar responsividade no canvas.
+            Espero que compreenda.
+            <br>
+            <a href="https://github.com/NyctibiusVII/SnakeGame#HeartCracked" target="_blank" rel="noopener noreferrer" title="Repositório do projeto">
+                <img class="mt-5 animate-appear" src="./assets/heart-cracked-64x64.gif" alt="Coração partido">
+            </a>
+        </p>
+    </div>
+
+    <!--Direitos autorais-->
+    <footer class="mt-3 createdBy footer navbar-fixed-bottom"><small>© 2020, Created by Matheus Vidigal - (NyctibiusVII)</small></footer>
 </body>
 </html>
