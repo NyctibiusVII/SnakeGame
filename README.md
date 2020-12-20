@@ -74,7 +74,7 @@ Te peço mil desculpas mas no momento sou iniciante e esta muito difícil para m
 
 ## Rodando o projeto 🚴🏻‍♂️
 #### "Só vou dar uma olhadinha...":
-  <a href="https://picpay.me/Matheus_nyctibius_vii">🍉 Site hospedado na Vercel 🍉</a>
+  <a href="https://snake-game-sepia.vercel.app/">🍉 Site hospedado na Vercel 🍉</a>
 
 #### Na sua maquina:
 
