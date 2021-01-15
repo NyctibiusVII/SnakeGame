@@ -47,16 +47,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ### Como jogar? 🕹
 Você controla uma cobrinha cujo objetivo é comer o máximo possível sem se chocar com o próprio corpo.
 
-#### Regras
+#### Regras 🧩
 Restrições: você não pode executar um comando contrario do sentido da sua cobra. *Ex: sua cobra esta indo para a direita, então sera impossível executar o comando de ir para a esquerda.*
 
-#### Desktop
+#### Desktop 💻✔
 Cobra controlada por 'setinhas': cima ↑, direita →, baixo ↓, esquerda ←. "isso ja é auto sugestivo".
 
 Disponível em breve no formato 'W, S, A, D'.
 
-#### Mobile
-*Disponível em breve...*
+#### Mobile 📱❌|❌
+Vertical: *Disponível em breve...*
+<br>
+Horizontal: *Disponível em breve...*
 
 ##### Responsividade do mobile 📱
 - Para **dispositivos com width(largura) abaixo de 540** infelizmente a tela do canvas fica desregulada.
